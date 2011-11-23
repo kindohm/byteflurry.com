@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Byte Flurry, LLC</title>
+    <title>{{ page.title }}</title>
     <link rel="shortcut icon" href="/content/favicon.png" />
     <link href="/content/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="main">
-        <div id="home">
-<h1><img src="/content/icon.png" alt="icon"/>Byte Flurry, LLC</h1>
-<p class="tagLine">Software development.  Done well.</p>
-</div>
+        <div id="contentWrapper">
+        
+            <h2><img src="/content/icon.png" alt="icon" />Byte Flurry, LLC</h2>
 
-
-
-
-            <div id="nav">
+            <div id="navInner">
                 <a href="/index.html">home</a>&nbsp;
                 <a href="/services.html">services</a>&nbsp;
                 <a href="/about.html">about</a>&nbsp;
                 <a href="/contact.html">contact</a>
             </div>
 
-        <p class="copy">
-            &copy; Copyright 2011 Byte Flurry, LLC</p>
+            <div class="clear"></div>
+
+            <div id="content">
+            {{ content }}
+            </div>
+            <p class="copy">&copy; Copyright 2011 Byte Flurry, LLC</p>
+
+        </div>
     </div>
 </body>
 </html>
