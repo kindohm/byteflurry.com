@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 
 .jumbotron {
   margin: 40px 0 0 0;
-  background-image: url(img/hbg.png);
+  background-image: url(../img/hbg.png);
   border-top: solid 2px #ccc;
   border-bottom: solid 2px #ccc;
   padding-bottom: 0px;
