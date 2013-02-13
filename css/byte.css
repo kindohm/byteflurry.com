@@ -1,0 +1,79 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+
+body {
+  font-family: 'Open Sans', Arial, serif;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.well {
+  background-color: rgb(255, 255, 255);
+}
+
+.well h4{
+  text-transform: none;
+}
+
+.soft {
+  margin: 50px 0 0 0;
+  background-image: url(../img/hbg.png);
+  border-top: solid 2px #ccc;
+  border-bottom: solid 2px #ccc;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.hero-unit .lead {
+  text-shadow: 1px 1px 1px white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-unit .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.marketing {
+  margin-top: 40px;
+}
+
+.footer {
+  background: rgb(51, 51, 51);
+  color: #fff;
+  margin-bottom: 0px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.lead1{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.lead2 {
+  margin-bottom: 0px;
+}
+
+.email{
+  text-transform: none;
+}
+
+.logo {
+  margin-top: -4px;
+}
+
+.hello {
+  margin-top: 20px;
+}
